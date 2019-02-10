@@ -1,4 +1,4 @@
-# Spring boot 2 Http & Https
+# Spring Boot 2 Http & Https
 Simple Spring boot 2 application that demostrates how to open http and https ( secure) endpoint in same springboot applicaiton with different ports.
 
 Spring boot 2, the EmbeddedServletContainerCustomizer interface is replaced by WebServerFactoryCustomizer, while the ConfigurableEmbeddedServletContainer class is replaced with ConfigurableServletWebServerFactory.
@@ -9,3 +9,5 @@ https - Secure endpoint available in 8686
 http - Unsecure endpoint available in 8787
 
 Incase if you need to health check application with Kubenetes healthcheck
+
+http://localhost:8787/actuator/health
