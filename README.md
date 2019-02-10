@@ -1,4 +1,4 @@
-# HttpHttps
+# Spring boot 2 Http & Https
 Simple Spring boot 2 application that demostrates how to open http and https ( secure) endpoint in same springboot applicaiton with different ports.
 
 Spring boot 2, the EmbeddedServletContainerCustomizer interface is replaced by WebServerFactoryCustomizer, while the ConfigurableEmbeddedServletContainer class is replaced with ConfigurableServletWebServerFactory.
